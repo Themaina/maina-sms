@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Sms;
+namespace Maina888\Sms;
 
 use Botble\PluginManagement\Abstracts\PluginOperationAbstract;
 use Botble\Setting\Models\Setting;

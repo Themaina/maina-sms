@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Supports;
+namespace Maina888\Sms\Supports;
 
 /**
  * Normalises phone numbers to E.164 ("+<country code><number>").

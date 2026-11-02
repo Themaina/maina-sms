@@ -10,8 +10,8 @@ $project = dirname(__DIR__, 4);
 
 spl_autoload_register(function (string $class) use ($project): void {
     $map = [
-        'MainaSuperintelligence\\Sms\\Tests\\' => __DIR__ . '/',
-        'MainaSuperintelligence\\Sms\\' => dirname(__DIR__) . '/src/',
+        'Maina888\\Sms\\Tests\\' => __DIR__ . '/',
+        'Maina888\\Sms\\' => dirname(__DIR__) . '/src/',
         'Tests\\' => $project . '/tests/',
     ];
 

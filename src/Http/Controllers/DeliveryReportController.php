@@ -1,9 +1,9 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Http\Controllers;
+namespace Maina888\Sms\Http\Controllers;
 
-use MainaSuperintelligence\Sms\Services\SmsService;
-use MainaSuperintelligence\Sms\Supports\SmsSettings;
+use Maina888\Sms\Services\SmsService;
+use Maina888\Sms\Supports\SmsSettings;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;

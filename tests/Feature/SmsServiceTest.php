@@ -1,16 +1,16 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Tests\Feature;
+namespace Maina888\Sms\Tests\Feature;
 
 use Botble\Ecommerce\Events\OrderPlacedEvent;
 use Botble\Ecommerce\Models\Order;
 use Botble\Ecommerce\Models\OrderAddress;
-use MainaSuperintelligence\Sms\Events\SmsFailed;
-use MainaSuperintelligence\Sms\Events\SmsSent;
-use MainaSuperintelligence\Sms\Listeners\SendOrderSmsListener;
-use MainaSuperintelligence\Sms\Models\SmsLog;
-use MainaSuperintelligence\Sms\Services\SmsService;
-use MainaSuperintelligence\Sms\Supports\SmsSettings;
+use Maina888\Sms\Events\SmsFailed;
+use Maina888\Sms\Events\SmsSent;
+use Maina888\Sms\Listeners\SendOrderSmsListener;
+use Maina888\Sms\Models\SmsLog;
+use Maina888\Sms\Services\SmsService;
+use Maina888\Sms\Supports\SmsSettings;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Http\Client\Request as ClientRequest;
 use Illuminate\Support\Carbon;

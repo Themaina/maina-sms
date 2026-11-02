@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Http\Requests;
+namespace Maina888\Sms\Http\Requests;
 
 use Botble\Support\Http\Requests\Request;
 

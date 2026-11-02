@@ -1,9 +1,9 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Events;
+namespace Maina888\Sms\Events;
 
 use Botble\Base\Events\Event;
-use MainaSuperintelligence\Sms\Models\SmsLog;
+use Maina888\Sms\Models\SmsLog;
 use Illuminate\Queue\SerializesModels;
 
 class SmsDelivered extends Event

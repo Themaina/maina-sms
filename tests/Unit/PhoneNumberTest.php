@@ -1,8 +1,8 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Tests\Unit;
+namespace Maina888\Sms\Tests\Unit;
 
-use MainaSuperintelligence\Sms\Supports\PhoneNumber;
+use Maina888\Sms\Supports\PhoneNumber;
 use PHPUnit\Framework\Attributes\DataProvider;
 use PHPUnit\Framework\TestCase;
 

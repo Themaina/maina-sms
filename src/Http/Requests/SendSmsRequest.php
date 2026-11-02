@@ -1,9 +1,9 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Http\Requests;
+namespace Maina888\Sms\Http\Requests;
 
 use Botble\Support\Http\Requests\Request;
-use MainaSuperintelligence\Sms\Http\Controllers\SendSmsController;
+use Maina888\Sms\Http\Controllers\SendSmsController;
 use Illuminate\Validation\Rule;
 
 class SendSmsRequest extends Request

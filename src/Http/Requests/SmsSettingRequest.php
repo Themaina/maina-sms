@@ -1,9 +1,9 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Http\Requests;
+namespace Maina888\Sms\Http\Requests;
 
 use Botble\Base\Rules\OnOffRule;
-use MainaSuperintelligence\Sms\Services\SmsService;
+use Maina888\Sms\Services\SmsService;
 use Botble\Support\Http\Requests\Request;
 use Illuminate\Validation\Rule;
 

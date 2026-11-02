@@ -1,10 +1,10 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Tests\Feature;
+namespace Maina888\Sms\Tests\Feature;
 
-use MainaSuperintelligence\Sms\Services\SmsService;
-use MainaSuperintelligence\Sms\Supports\SmsText;
-use MainaSuperintelligence\Sms\Tests\SmsTestCase;
+use Maina888\Sms\Services\SmsService;
+use Maina888\Sms\Supports\SmsText;
+use Maina888\Sms\Tests\SmsTestCase;
 use ReflectionMethod;
 use ReflectionNamedType;
 use ReflectionUnionType;

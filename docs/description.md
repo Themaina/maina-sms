@@ -2,9 +2,9 @@
 
 Send SMS from your Botble site through Africa's Talking: order notifications with text you can edit, bulk messages to customers, and a log of every message with its delivery status. Quiet hours hold non-urgent messages overnight, and other plugins can send SMS with one line of code.
 
-**Free and open source** by **Maina 888** · Maina Superintelligence Ltd
+**Free and open source** · Made with passion by [maina888](https://mainax.vercel.app)
 
-**Version:** 1.1.0 · **Requires:** Botble CMS core 7.3.0+, PHP 8.2+ · **License:** MIT
+**Version:** 1.1.1 · **Requires:** Botble CMS core 7.3.0+, PHP 8.2+ · **License:** MIT
 
 ## Features
 
@@ -107,7 +107,7 @@ sms_send('+2547XXXXXXXX', 'Your order is ready for pickup.', ['related' => $orde
 // A registered template with variables. Returns null when SMS or that template is switched off.
 sms_send_template($phone, 'order_placed', ['first_name' => 'Demo', 'order_code' => '#10000012', 'amount' => 'KES 1,500']);
 
-$sms = app(\MainaSuperintelligence\Sms\Services\SmsService::class);
+$sms = app(\Maina888\Sms\Services\SmsService::class);
 $sms->normalisePhone('07XX XXX XXX'); // '+2547XXXXXXXX' or null
 $sms->balance();                      // e.g. 'KES 1250.0000' (cached for five minutes)
 ```
@@ -142,7 +142,7 @@ add_filter('sms_audiences', function (array $audiences): array {
 });
 ```
 
-Events: `MainaSuperintelligence\Sms\Events\SmsSent`, `SmsDelivered` and `SmsFailed` (each with `$log`; `SmsFailed` also has `$reason`).
+Events: `Maina888\Sms\Events\SmsSent`, `SmsDelivered` and `SmsFailed` (each with `$log`; `SmsFailed` also has `$reason`).
 
 ## How it works
 
@@ -200,6 +200,19 @@ sms/
 
 Africa's Talking is a trademark of Africa's Talking Ltd. This plugin is not made or endorsed by Africa's Talking.
 
+## Support this project
+
+Made with passion by [maina888](https://mainax.vercel.app). This plugin is free, and it stays free.
+
+If it saves you time, you can say thank you and help make it better:
+
+- ⭐ Star the repository on GitHub.
+- 🐞 Report a bug or ask for a feature in the issues.
+- 🔧 Send an improvement as a pull request (see CONTRIBUTING.md).
+- ☕ Donate to support the work: [mainax.vercel.app](https://mainax.vercel.app).
+
+Follow maina888: [Website](https://mainax.vercel.app) · [Instagram](https://www.instagram.com/maina888_/) · [LinkedIn](https://www.linkedin.com/in/themainax/) · [GitHub](https://github.com/Themaina)
+
 ## License
 
-Free and open source under the [MIT License](https://github.com/Themaina/maina-sms/blob/main/LICENSE). © 2026 Maina Superintelligence Ltd. Made by Maina 888.
+Free and open source under the [MIT License](https://github.com/Themaina/maina-sms/blob/main/LICENSE). © 2026 maina888. Made with passion by [maina888](https://mainax.vercel.app).

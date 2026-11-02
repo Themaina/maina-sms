@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Supports;
+namespace Maina888\Sms\Supports;
 
 /**
  * Template rendering and segment counting. Pure PHP, unit tested.

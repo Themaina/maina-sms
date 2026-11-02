@@ -1,10 +1,10 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Tests\Feature;
+namespace Maina888\Sms\Tests\Feature;
 
 use Botble\ACL\Models\User;
 use Botble\ACL\Services\ActivateUserService;
-use MainaSuperintelligence\Sms\Tests\SmsTestCase;
+use Maina888\Sms\Tests\SmsTestCase;
 use Illuminate\Support\Str;
 use PHPUnit\Framework\Attributes\DataProvider;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Listeners;
+namespace Maina888\Sms\Listeners;
 
 use Botble\Base\Facades\BaseHelper;
 use Botble\Ecommerce\Events\OrderCompletedEvent;
@@ -8,8 +8,8 @@ use Botble\Ecommerce\Events\OrderConfirmedEvent;
 use Botble\Ecommerce\Events\OrderPaymentConfirmedEvent;
 use Botble\Ecommerce\Events\OrderPlacedEvent;
 use Botble\Ecommerce\Models\Order;
-use MainaSuperintelligence\Sms\Models\SmsLog;
-use MainaSuperintelligence\Sms\Services\SmsService;
+use Maina888\Sms\Models\SmsLog;
+use Maina888\Sms\Services\SmsService;
 use Throwable;
 
 /**

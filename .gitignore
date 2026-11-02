@@ -4,3 +4,4 @@
 /node_modules/
 .phpunit.result.cache
 .phpunit.cache/
+/docs/art.json

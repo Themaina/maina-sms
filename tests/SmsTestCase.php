@@ -1,8 +1,8 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Tests;
+namespace Maina888\Sms\Tests;
 
-use MainaSuperintelligence\Sms\Supports\SmsSettings;
+use Maina888\Sms\Supports\SmsSettings;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Http;

@@ -1,16 +1,16 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Services;
+namespace Maina888\Sms\Services;
 
-use MainaSuperintelligence\Sms\Enums\SmsStatusEnum;
-use MainaSuperintelligence\Sms\Events\SmsDelivered;
-use MainaSuperintelligence\Sms\Events\SmsFailed;
-use MainaSuperintelligence\Sms\Events\SmsSent;
-use MainaSuperintelligence\Sms\Jobs\SendSmsJob;
-use MainaSuperintelligence\Sms\Models\SmsLog;
-use MainaSuperintelligence\Sms\Supports\PhoneNumber;
-use MainaSuperintelligence\Sms\Supports\SmsSettings;
-use MainaSuperintelligence\Sms\Supports\SmsText;
+use Maina888\Sms\Enums\SmsStatusEnum;
+use Maina888\Sms\Events\SmsDelivered;
+use Maina888\Sms\Events\SmsFailed;
+use Maina888\Sms\Events\SmsSent;
+use Maina888\Sms\Jobs\SendSmsJob;
+use Maina888\Sms\Models\SmsLog;
+use Maina888\Sms\Supports\PhoneNumber;
+use Maina888\Sms\Supports\SmsSettings;
+use Maina888\Sms\Supports\SmsText;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Carbon;

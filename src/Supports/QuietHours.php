@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Supports;
+namespace Maina888\Sms\Supports;
 
 use Carbon\CarbonImmutable;
 use Carbon\CarbonInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Services;
+namespace Maina888\Sms\Services;
 
 use RuntimeException;
 use Throwable;

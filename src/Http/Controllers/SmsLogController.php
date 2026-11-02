@@ -1,15 +1,15 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Http\Controllers;
+namespace Maina888\Sms\Http\Controllers;
 
 use Botble\Base\Http\Actions\DeleteResourceAction;
 use Botble\Base\Http\Controllers\BaseController;
 use Botble\Base\Http\Responses\BaseHttpResponse;
-use MainaSuperintelligence\Sms\Enums\SmsStatusEnum;
-use MainaSuperintelligence\Sms\Models\SmsLog;
-use MainaSuperintelligence\Sms\Services\SmsService;
-use MainaSuperintelligence\Sms\Supports\SmsSettings;
-use MainaSuperintelligence\Sms\Tables\SmsLogTable;
+use Maina888\Sms\Enums\SmsStatusEnum;
+use Maina888\Sms\Models\SmsLog;
+use Maina888\Sms\Services\SmsService;
+use Maina888\Sms\Supports\SmsSettings;
+use Maina888\Sms\Tables\SmsLogTable;
 
 class SmsLogController extends BaseController
 {

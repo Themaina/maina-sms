@@ -1,8 +1,8 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Commands;
+namespace Maina888\Sms\Commands;
 
-use MainaSuperintelligence\Sms\Services\SmsService;
+use Maina888\Sms\Services\SmsService;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Attribute\AsCommand;
 

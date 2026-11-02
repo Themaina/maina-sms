@@ -1,10 +1,10 @@
 <?php
 
 use Botble\Base\Facades\AdminHelper;
-use MainaSuperintelligence\Sms\Http\Controllers\DeliveryReportController;
-use MainaSuperintelligence\Sms\Http\Controllers\SendSmsController;
-use MainaSuperintelligence\Sms\Http\Controllers\Settings\SmsSettingController;
-use MainaSuperintelligence\Sms\Http\Controllers\SmsLogController;
+use Maina888\Sms\Http\Controllers\DeliveryReportController;
+use Maina888\Sms\Http\Controllers\SendSmsController;
+use Maina888\Sms\Http\Controllers\Settings\SmsSettingController;
+use Maina888\Sms\Http\Controllers\SmsLogController;
 use Illuminate\Support\Facades\Route;
 
 // Africa's Talking delivery reports. Public and CSRF-exempt; the token in the path is an

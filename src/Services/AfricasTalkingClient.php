@@ -1,8 +1,8 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Services;
+namespace Maina888\Sms\Services;
 
-use MainaSuperintelligence\Sms\Supports\SmsSettings;
+use Maina888\Sms\Supports\SmsSettings;
 use Illuminate\Http\Client\ConnectionException;
 use Illuminate\Http\Client\PendingRequest;
 use Illuminate\Support\Arr;

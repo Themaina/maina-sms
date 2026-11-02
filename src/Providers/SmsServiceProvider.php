@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Providers;
+namespace Maina888\Sms\Providers;
 
 use Botble\Base\Facades\DashboardMenu;
 use Botble\Base\Facades\PanelSectionManager;
@@ -11,10 +11,10 @@ use Botble\Base\Traits\LoadAndPublishDataTrait;
 use Botble\Dashboard\Events\RenderingDashboardWidgets;
 use Botble\Dashboard\Supports\DashboardWidgetInstance;
 use Botble\Setting\PanelSections\SettingOthersPanelSection;
-use MainaSuperintelligence\Sms\Commands\SendScheduledSmsCommand;
-use MainaSuperintelligence\Sms\Listeners\SendOrderSmsListener;
-use MainaSuperintelligence\Sms\Services\AfricasTalkingClient;
-use MainaSuperintelligence\Sms\Services\SmsService;
+use Maina888\Sms\Commands\SendScheduledSmsCommand;
+use Maina888\Sms\Listeners\SendOrderSmsListener;
+use Maina888\Sms\Services\AfricasTalkingClient;
+use Maina888\Sms\Services\SmsService;
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;

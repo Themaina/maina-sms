@@ -1,11 +1,11 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Tests\Feature;
+namespace Maina888\Sms\Tests\Feature;
 
-use MainaSuperintelligence\Sms\Jobs\SendSmsJob;
-use MainaSuperintelligence\Sms\Models\SmsLog;
-use MainaSuperintelligence\Sms\Services\SmsService;
-use MainaSuperintelligence\Sms\Tests\SmsTestCase;
+use Maina888\Sms\Jobs\SendSmsJob;
+use Maina888\Sms\Models\SmsLog;
+use Maina888\Sms\Services\SmsService;
+use Maina888\Sms\Tests\SmsTestCase;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Http;
 

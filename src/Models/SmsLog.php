@@ -1,9 +1,9 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Models;
+namespace Maina888\Sms\Models;
 
 use Botble\Base\Models\BaseModel;
-use MainaSuperintelligence\Sms\Enums\SmsStatusEnum;
+use Maina888\Sms\Enums\SmsStatusEnum;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
 

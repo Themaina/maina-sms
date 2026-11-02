@@ -1,14 +1,14 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Http\Controllers;
+namespace Maina888\Sms\Http\Controllers;
 
 use Botble\Base\Http\Controllers\BaseController;
 use Botble\Base\Http\Responses\BaseHttpResponse;
-use MainaSuperintelligence\Sms\Enums\SmsStatusEnum;
-use MainaSuperintelligence\Sms\Http\Requests\SendSmsRequest;
-use MainaSuperintelligence\Sms\Services\SmsService;
-use MainaSuperintelligence\Sms\Supports\SmsSettings;
-use MainaSuperintelligence\Sms\Supports\SmsText;
+use Maina888\Sms\Enums\SmsStatusEnum;
+use Maina888\Sms\Http\Requests\SendSmsRequest;
+use Maina888\Sms\Services\SmsService;
+use Maina888\Sms\Supports\SmsSettings;
+use Maina888\Sms\Supports\SmsText;
 use Illuminate\Support\Collection;
 
 class SendSmsController extends BaseController

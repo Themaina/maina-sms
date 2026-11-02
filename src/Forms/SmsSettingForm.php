@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Forms;
+namespace Maina888\Sms\Forms;
 
 use Botble\Base\Forms\FieldOptions\CheckboxFieldOption;
 use Botble\Base\Forms\FieldOptions\HtmlFieldOption;
@@ -14,9 +14,9 @@ use Botble\Base\Forms\Fields\RadioField;
 use Botble\Base\Forms\Fields\TextareaField;
 use Botble\Base\Forms\Fields\TextField;
 use Botble\Setting\Forms\SettingForm;
-use MainaSuperintelligence\Sms\Http\Requests\SmsSettingRequest;
-use MainaSuperintelligence\Sms\Services\SmsService;
-use MainaSuperintelligence\Sms\Supports\SmsSettings;
+use Maina888\Sms\Http\Requests\SmsSettingRequest;
+use Maina888\Sms\Services\SmsService;
+use Maina888\Sms\Supports\SmsSettings;
 
 class SmsSettingForm extends SettingForm
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Tests\Unit;
+namespace Maina888\Sms\Tests\Unit;
 
-use MainaSuperintelligence\Sms\Supports\SmsText;
+use Maina888\Sms\Supports\SmsText;
 use PHPUnit\Framework\TestCase;
 
 require_once __DIR__ . '/../../src/Supports/SmsText.php';

@@ -1,7 +1,7 @@
 <?php
 
-use MainaSuperintelligence\Sms\Models\SmsLog;
-use MainaSuperintelligence\Sms\Services\SmsService;
+use Maina888\Sms\Models\SmsLog;
+use Maina888\Sms\Services\SmsService;
 use Illuminate\Support\Collection;
 
 if (! function_exists('sms_service')) {

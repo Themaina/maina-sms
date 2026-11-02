@@ -1,4 +1,4 @@
-# Marketplace listing copy (Maina 888)
+# Marketplace listing copy (maina888)
 
 **Name:** SMS via Africa's Talking
 **Tagline:** Order SMS, bulk sends, quiet hours and delivery reports through Africa's Talking.

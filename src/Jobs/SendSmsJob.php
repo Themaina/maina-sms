@@ -1,10 +1,10 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Jobs;
+namespace Maina888\Sms\Jobs;
 
-use MainaSuperintelligence\Sms\Enums\SmsStatusEnum;
-use MainaSuperintelligence\Sms\Models\SmsLog;
-use MainaSuperintelligence\Sms\Services\SmsService;
+use Maina888\Sms\Enums\SmsStatusEnum;
+use Maina888\Sms\Models\SmsLog;
+use Maina888\Sms\Services\SmsService;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Foundation\Bus\Dispatchable;

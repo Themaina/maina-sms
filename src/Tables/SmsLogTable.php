@@ -1,10 +1,10 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Tables;
+namespace Maina888\Sms\Tables;
 
-use MainaSuperintelligence\Sms\Enums\SmsStatusEnum;
-use MainaSuperintelligence\Sms\Models\SmsLog;
-use MainaSuperintelligence\Sms\Services\SmsService;
+use Maina888\Sms\Enums\SmsStatusEnum;
+use Maina888\Sms\Models\SmsLog;
+use Maina888\Sms\Services\SmsService;
 use Botble\Table\Abstracts\TableAbstract;
 use Botble\Table\Actions\Action;
 use Botble\Table\Actions\DeleteAction;

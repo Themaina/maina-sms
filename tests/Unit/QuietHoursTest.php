@@ -1,8 +1,8 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Tests\Unit;
+namespace Maina888\Sms\Tests\Unit;
 
-use MainaSuperintelligence\Sms\Supports\QuietHours;
+use Maina888\Sms\Supports\QuietHours;
 use Carbon\CarbonImmutable;
 use PHPUnit\Framework\TestCase;
 

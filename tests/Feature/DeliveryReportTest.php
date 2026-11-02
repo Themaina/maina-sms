@@ -1,13 +1,13 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Tests\Feature;
+namespace Maina888\Sms\Tests\Feature;
 
-use MainaSuperintelligence\Sms\Events\SmsDelivered;
-use MainaSuperintelligence\Sms\Events\SmsFailed;
-use MainaSuperintelligence\Sms\Models\SmsLog;
-use MainaSuperintelligence\Sms\Services\SmsService;
-use MainaSuperintelligence\Sms\Supports\SmsSettings;
-use MainaSuperintelligence\Sms\Tests\SmsTestCase;
+use Maina888\Sms\Events\SmsDelivered;
+use Maina888\Sms\Events\SmsFailed;
+use Maina888\Sms\Models\SmsLog;
+use Maina888\Sms\Services\SmsService;
+use Maina888\Sms\Supports\SmsSettings;
+use Maina888\Sms\Tests\SmsTestCase;
 use Illuminate\Support\Facades\Event;
 
 require_once __DIR__ . '/../bootstrap.php';

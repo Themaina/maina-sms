@@ -1,6 +1,6 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Enums;
+namespace Maina888\Sms\Enums;
 
 use Botble\Base\Facades\BaseHelper;
 use Botble\Base\Supports\Enum;

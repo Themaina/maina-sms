@@ -1,16 +1,16 @@
 <?php
 
-namespace MainaSuperintelligence\Sms\Http\Controllers\Settings;
+namespace Maina888\Sms\Http\Controllers\Settings;
 
 use Botble\Base\Http\Responses\BaseHttpResponse;
 use Botble\Base\Supports\Breadcrumb;
 use Botble\Setting\Http\Controllers\SettingController;
-use MainaSuperintelligence\Sms\Enums\SmsStatusEnum;
-use MainaSuperintelligence\Sms\Forms\SmsSettingForm;
-use MainaSuperintelligence\Sms\Http\Requests\SmsSettingRequest;
-use MainaSuperintelligence\Sms\Http\Requests\TestSmsRequest;
-use MainaSuperintelligence\Sms\Services\SmsService;
-use MainaSuperintelligence\Sms\Supports\SmsSettings;
+use Maina888\Sms\Enums\SmsStatusEnum;
+use Maina888\Sms\Forms\SmsSettingForm;
+use Maina888\Sms\Http\Requests\SmsSettingRequest;
+use Maina888\Sms\Http\Requests\TestSmsRequest;
+use Maina888\Sms\Services\SmsService;
+use Maina888\Sms\Supports\SmsSettings;
 use Illuminate\Support\Facades\Cache;
 
 class SmsSettingController extends SettingController
