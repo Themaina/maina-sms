@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php: ['8.2', '8.3', '8.4', '8.5']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          coverage: none
+      - name: Validate plugin.json
+        run: |
+          php -r '$j = json_decode(file_get_contents("plugin.json"), true) ?: exit(1);
+            foreach (["id","name","namespace","provider","author","version","minimum_core_version"] as $k) { if (empty($j[$k])) { fwrite(STDERR, "plugin.json missing $k\n"); exit(1); } }
+            echo "plugin.json OK: {$j["id"]} {$j["version"]}\n";'
+      - name: PHP syntax check
+        run: find . -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 -P4 php -l > /dev/null

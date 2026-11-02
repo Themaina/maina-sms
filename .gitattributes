@@ -1,0 +1,11 @@
+# Keep development files out of the release zip and the marketplace download.
+/.gitattributes     export-ignore
+/.gitignore         export-ignore
+/.editorconfig      export-ignore
+/.github            export-ignore
+/art                export-ignore
+/docs               export-ignore
+/tests              export-ignore
+/phpunit.xml.dist   export-ignore
+/CONTRIBUTING.md    export-ignore
+/SECURITY.md        export-ignore

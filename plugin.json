@@ -1,0 +1,11 @@
+{
+    "id": "mainasuperintelligence/sms",
+    "name": "SMS via Africa's Talking",
+    "namespace": "MainaSuperintelligence\\Sms\\",
+    "provider": "MainaSuperintelligence\\Sms\\Providers\\SmsServiceProvider",
+    "author": "Maina 888",
+    "url": "https://github.com/MainaSuperintelligence/botble-sms",
+    "version": "1.1.0",
+    "description": "Send SMS from your Botble site through Africa's Talking: order notifications with editable templates, quiet hours, delivery reports, logs with resend, bulk sends and a simple API for other plugins.",
+    "minimum_core_version": "7.3.0"
+}
